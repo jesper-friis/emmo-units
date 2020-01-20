@@ -1,4 +1,4 @@
-Temporary repository for development and testing of units and datatypes
+Temporary repository for development and testing of datatypes and units
 =======================================================================
 
 **Warning**: This repository is intrinsic unstable.
@@ -13,7 +13,7 @@ The aim of this repository is to allow testing out new ideas about
 datatypes and units in domain and application ontologies.  The hope is
 that this the content soon will be merged into EMMO.
 
-`emmo-units` is based on the upstream 1.0.0 development branch of EMMO.
+`emmo-units` is based on the upstream v1.0.0 development branch of EMMO.
 
 
 Content
@@ -22,7 +22,8 @@ Content
 | file                       | description |
 | -------------------------- | ----------- |
 | emmo-units.owl             | Toplevel unit ontology that imports the rest |
-| base/emmo-annotations.owl  | Additional annotations |
+| emmo/                      | Git submodule with upstream EMMO |
+| base/emmo-annotations.owl  | Additional annotations introduced in emmo-units |
 | domain/emmo-datatypes.owl  | Basic data types  |
 | domain/emmo-units.owl      | Unit basic (to be included in EMMO core) |
 | domain/emmo-si-units.owl   | Realisation of SI units |

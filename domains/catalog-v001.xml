@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
+    <uri name="http://emmo.info/domains/emmo-datatypes.owl"           uri="emmo-datatypes.owl"/>
+    <uri name="http://emmo.info/domains/emmo-units.owl"               uri="emmo-units.owl"/>
+    <uri name="http://emmo.info/domains/emmo-si-units.owl"            uri="emmo-si-units.owl"/>
+    <uri name="http://emmo.info/base/emmo-extra-annotations.owl"      uri="../base/emmo-extra-annotations.owl"/>
+
+    <uri name="http://emmo.info/emmo.owl"                             uri="../emmo/emmo.owl"/>
+    <uri name="http://emmo.info/emmo-base.owl"                        uri="../emmo/emmo-base.owl"/>
+    <uri name="http://emmo.info/emmo-perspectives.owl"                uri="../emmo/emmo-perspectives.owl"/>
+    <uri name="http://emmo.info/base/emmo-4d.owl"                     uri="../emmo/base/emmo-4d.owl"/>
+    <uri name="http://emmo.info/base/emmo-annotations.owl"            uri="../emmo/base/emmo-annotations.owl"/>
+    <uri name="http://emmo.info/base/emmo-mereotopology.owl"          uri="../emmo/base/emmo-mereotopology.owl"/>
+    <uri name="http://emmo.info/base/emmo-physical.owl"               uri="../emmo/base/emmo-physical.owl"/>
+    <uri name="http://emmo.info/perspectives/emmo-existent.owl"       uri="../emmo/perspectives/emmo-existent.owl"/>
+    <uri name="http://emmo.info/perspectives/emmo-impression.owl"     uri="../emmo/perspectives/emmo-impression.owl"/>
+    <uri name="http://emmo.info/perspectives/emmo-processual.owl"     uri="../emmo/perspectives/emmo-processual.owl"/>
+    <uri name="http://emmo.info/perspectives/emmo-semiotics.owl"      uri="../emmo/perspectives/emmo-semiotics.owl"/>
+    <uri name="http://emmo.info/domains/emmo-acoustical.owl"          uri="../emmo/domains/emmo-acoustical.owl"/>
+    <uri name="http://emmo.info/domains/emmo-geometry.owl"            uri="../emmo/domains/emmo-geometry.owl"/>
+    <uri name="http://emmo.info/domains/emmo-graphical.owl"           uri="../emmo/domains/emmo-graphical.owl"/>
+    <uri name="http://emmo.info/domains/emmo-material.owl"            uri="../emmo/domains/emmo-material.owl"/>
+    <uri name="http://emmo.info/domains/emmo-math.owl"                uri="../emmo/domains/emmo-math.owl"/>
+    <uri name="http://emmo.info/domains/emmo-models.owl"              uri="../emmo/domains/emmo-models.owl"/>
+    <uri name="http://emmo.info/domains/emmo-physical-properties.owl" uri="../emmo/domains/emmo-physical-properties.owl"/>
+    <uri name="http://emmo.info/domains/emmo-properties.owl"          uri="../emmo/domains/emmo-properties.owl"/>
+    <uri name="http://emmo.info/domains/emmo-usercase.owl"            uri="../emmo/domains/emmo-usercase.owl"/>
+  </group>
+</catalog>

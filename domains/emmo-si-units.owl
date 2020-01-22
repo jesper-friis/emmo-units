@@ -404,7 +404,7 @@
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_a1c771c6_f1af_4c72_81a1_9d9a002039f9 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_a1c771c6_f1af_4c72_81a1_9d9a002039f9">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_b53d316d_06a2_4f70_a6e3_53fc774c810c"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-si-units.owl#emmo-properties:EMMO_d5be1faf_0c56_4f5a_9b78_581e6dee949f"/>
         <rdfs:label xml:lang="en">ChemicalComposition</rdfs:label>
     </owl:Class>
     
@@ -498,7 +498,7 @@
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_b53d316d_06a2_4f70_a6e3_53fc774c810c -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_b53d316d_06a2_4f70_a6e3_53fc774c810c">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-si-units.owl#emmo-properties:EMMO_d5be1faf_0c56_4f5a_9b78_581e6dee949f"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_749d243d_669c_4e00_b9f2_90ca4a1cc8b7"/>

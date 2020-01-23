@@ -179,6 +179,15 @@
     
 
 
+    <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_1a4f10fb_611d_4d98_8f57_a47cd6d754d8 -->
+
+    <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_1a4f10fb_611d_4d98_8f57_a47cd6d754d8">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_86b662ff_1cb8_4694_bf7a_12bb947848f8"/>
+        <rdfs:label xml:lang="en">Position</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_277417b6_c82b_4f14_a446_7a7e1e7abab8 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_277417b6_c82b_4f14_a446_7a7e1e7abab8">
@@ -921,7 +930,7 @@
                 <owl:onClass rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Velocity</rdfs:label>
+        <rdfs:label xml:lang="en">Speed</rdfs:label>
     </owl:Class>
     
 

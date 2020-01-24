@@ -27,3 +27,37 @@ Content
 | domain/emmo-datatypes.owl  | Basic data types  |
 | domain/emmo-units.owl      | Unit basic (to be included in EMMO core) |
 | domain/emmo-si-units.owl   | Realisation of SI units |
+
+
+Details/comments
+----------------
+### base/emmo-extra-annotations.owl
+Adds two object annotations; iupacDoi and qudtSameAs under
+rdfs:seeAlso. They are used to provide a doi to a human readable
+definitions in IUPAC and the corresponding concept in QUDT (with
+information about e.g. unit conversions), respectively. Maybe iupacDoi
+should be placed under rdfs:isDefinedBy instead. They can probably
+also be named better. They are currently only used in
+emmo-si-units.owl, but could be used more widely in EMMO.
+
+### domains/emmo-datatypes.owl
+This is an early draft for formalising data types and
+dimensionality. A very interesting extension is to add data
+representations (in a separate owl file) so that we have a common way
+to express how a quantity is represented in an applications, like
+whether it is a single number, a field, probability distribution,
+etc...
+
+### domains/emmo-units.owl
+Defines the basic categorisation for physical quantities and units,
+but does not define any unit or quantity itself. It also defines
+relations for defining the physical dimensionality of derived physical
+quantities in terms of base quantities.
+
+### domains/emmo-si-units.owl
+Adds a set of common SI units and corresponding physical
+quantities. It is essentially based on the first table on
+https://en.wikipedia.org/wiki/SI_derived_unit. Common derived units
+without an own name, like square metre, Newton second, etc are still
+missing. Likewise a limited set of common Physical constants are not
+yet included.

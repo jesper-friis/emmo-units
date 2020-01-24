@@ -182,7 +182,7 @@ In EMMO, the dimension of the permeance can be described by the following set of
     <!-- http://emmo.info/domains/emmo-units.owl#EMMO_237fb595_8e8f_49f1_9a80_9c74bb93c16d -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_237fb595_8e8f_49f1_9a80_9c74bb93c16d">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_966f0b98_ccf4_4ed5_b748_34cc4eb261bd"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_86b662ff_1cb8_4694_bf7a_12bb947848f8"/>
         <rdfs:label xml:lang="en">VectorQuantity</rdfs:label>
     </owl:Class>
     
@@ -232,15 +232,6 @@ In EMMO, the dimension of the permeance can be described by the following set of
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_86b662ff_1cb8_4694_bf7a_12bb947848f8">
         <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_dd4a7f3e_ef56_466c_ac1a_d2716b5f87ec"/>
-        <rdfs:label xml:lang="en">DimensionalQuantity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://emmo.info/domains/emmo-units.owl#EMMO_966f0b98_ccf4_4ed5_b748_34cc4eb261bd -->
-
-    <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_966f0b98_ccf4_4ed5_b748_34cc4eb261bd">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_86b662ff_1cb8_4694_bf7a_12bb947848f8"/>
         <rdfs:label xml:lang="en">DimensionalQuantity</rdfs:label>
     </owl:Class>
     

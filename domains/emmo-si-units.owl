@@ -589,7 +589,7 @@
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_c90b97c0_585d_4b19_8c17_8996b58425d6 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_c90b97c0_585d_4b19_8c17_8996b58425d6">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_e9ffc696_5228_4ff9_8a60_0f5e05e9931b"/>
         <rdfs:label xml:lang="en">SICombinedUnits</rdfs:label>
     </owl:Class>
     
@@ -1332,7 +1332,6 @@
     <!-- http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_0d357ec2_13c3_4338_9279_c15727c017af -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_0d357ec2_13c3_4338_9279_c15727c017af">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_4a575318_d2d0_4ba4_9391_56292ac5b462"/>
         <rdfs:label xml:lang="en">Impedance</rdfs:label>
     </owl:Class>
     
@@ -1491,43 +1490,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_4a575318_d2d0_4ba4_9391_56292ac5b462 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_4a575318_d2d0_4ba4_9391_56292ac5b462">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_7bc80051_e62a_4789_9e6a_b50eadab8527"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_7bc80051_e62a_4789_9e6a_b50eadab8527"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_d4f7d378_5e3b_468a_baa1_a7e98358cda7"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_acc00345_2f73_43fa_8fb2_b0a5574466c4"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_ed4af7ae_63a2_497e_bb88_2309619ea405"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_acc00345_2f73_43fa_8fb2_b0a5574466c4"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Resistance</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845">
@@ -1608,7 +1570,6 @@
     <!-- http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_67965021_c889_41c7_b0b8_3c3ed42293c5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_67965021_c889_41c7_b0b8_3c3ed42293c5">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/friisj/ontologies/2019/11/untitled-ontology-48#emmo-properties:EMMO_4a575318_d2d0_4ba4_9391_56292ac5b462"/>
         <rdfs:label xml:lang="en">Reactance</rdfs:label>
     </owl:Class>
     

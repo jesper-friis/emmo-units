@@ -179,6 +179,15 @@ In EMMO, the dimension of the permeance can be described by the following set of
     
 
 
+    <!-- http://emmo.info/domains/emmo-units.owl#EMMO_237fb595_8e8f_49f1_9a80_9c74bb93c16d -->
+
+    <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_237fb595_8e8f_49f1_9a80_9c74bb93c16d">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_966f0b98_ccf4_4ed5_b748_34cc4eb261bd"/>
+        <rdfs:label xml:lang="en">VectorQuantity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://emmo.info/domains/emmo-units.owl#EMMO_3a185e6c_9e19_4776_b583_19c978156aa0 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_3a185e6c_9e19_4776_b583_19c978156aa0">

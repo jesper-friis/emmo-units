@@ -182,7 +182,7 @@
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_1a4f10fb_611d_4d98_8f57_a47cd6d754d8 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_1a4f10fb_611d_4d98_8f57_a47cd6d754d8">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_966f0b98_ccf4_4ed5_b748_34cc4eb261bd"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_237fb595_8e8f_49f1_9a80_9c74bb93c16d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_7c97fa4f_e74d_4646_8bc9_2d1ae2ec619b"/>
@@ -197,6 +197,28 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Position</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_1fcef23d_ae99_461a_8d24_40775839a097 -->
+
+    <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_1fcef23d_ae99_461a_8d24_40775839a097">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_237fb595_8e8f_49f1_9a80_9c74bb93c16d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_7c97fa4f_e74d_4646_8bc9_2d1ae2ec619b"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/domains/emmo-si-units.owl#emmo-properties:EMMO_81369540_1b0e_471b_9bae_6801af22800e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-datatypes.owl#emmo-properties:EMMO_e11eedc0_cd92_4125_a28b_8b9c16a1d65e"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://emmo.info/domains/emmo-math.owl#EMMO_c22f0989_1be2_4a34_9bb8_d780abffbdfa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Velocity</rdfs:label>
     </owl:Class>
     
 

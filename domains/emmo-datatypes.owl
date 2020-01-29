@@ -90,12 +90,6 @@
                 <owl:someValuesFrom rdf:resource="http://emmo.info/domains/emmo-datatypes.owl#emmo-properties:EMMO_11ead35b_b007_414a_af7b_72d08b283277"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-datatypes.owl#emmo-properties:EMMO_e11eedc0_cd92_4125_a28b_8b9c16a1d65e"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/domains/emmo-math.owl#EMMO_b9db54a5_2a6c_4764_8141_9f7579fe5ad8"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>Dimensions provides semantics for describing arrays and other ordered entities.
 
 Dimensions have a size and may be chained (using hasNextDimension) to provide an ordered list of dimensions.</rdfs:comment>

@@ -449,6 +449,12 @@
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_a1c771c6_f1af_4c72_81a1_9d9a002039f9">
         <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-si-units.owl#emmo-properties:EMMO_d5be1faf_0c56_4f5a_9b78_581e6dee949f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_912c761e_7540_475a_a5f9_121fba7f116f"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_b53d316d_06a2_4f70_a6e3_53fc774c810c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ChemicalComposition</rdfs:label>
     </owl:Class>
     

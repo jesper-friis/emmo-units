@@ -506,19 +506,6 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <emmo-properties:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.B00695</emmo-properties:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:label xml:lang="en">BoltzmannConstant</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://emmo.info/domains/emmo-units.owl#emmo-properties:EMMO_b953f2b1_c8d1_4dd9_b630_d3ef6580c2bb -->
-
-    <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#emmo-properties:EMMO_b953f2b1_c8d1_4dd9_b630_d3ef6580c2bb">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819"/>
-        <rdfs:comment>Physical constants are categorised into &quot;exact&quot; and measured constants. 
-
-With &quot;exact&quot; constants, we refer to physical constants that have an exact numerical value after the revision of the SI system that was enforsed May 2019.</rdfs:comment>
-        <rdfs:label xml:lang="en">PhysicalConstant</rdfs:label>
-        <rdfs:seeAlso>https://en.wikipedia.org/wiki/List_of_physical_constants</rdfs:seeAlso>
-    </owl:Class>
 </rdf:RDF>
 
 

@@ -376,28 +376,6 @@
     
 
 
-    <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_61df559b_216a_4556_a2ba_1231b5c04122 -->
-
-    <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_61df559b_216a_4556_a2ba_1231b5c04122">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_86b662ff_1cb8_4694_bf7a_12bb947848f8"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-datatypes.owl#emmo-properties:EMMO_b275fc93_9971_4788_9aa4_e70c370028bd"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/domains/emmo-datatypes.owl#emmo-properties:EMMO_11ead35b_b007_414a_af7b_72d08b283277"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_7c97fa4f_e74d_4646_8bc9_2d1ae2ec619b"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>The dimensions of multidimensional quantities are ordered. To express this in OWL, we have to define a QuantityDimension subclass for each dimension of the multidimensional quantity.</rdfs:comment>
-        <rdfs:label xml:lang="en">MultiDimensionalQuantity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_68c49ad3_f4c7_4e48_b268_d24859382785 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_68c49ad3_f4c7_4e48_b268_d24859382785">
@@ -957,17 +935,6 @@
     
 
 
-    <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_f7eb6d93_a05b_4bd3_9421_2852b00797aa -->
-
-    <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_f7eb6d93_a05b_4bd3_9421_2852b00797aa">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_dd4a7f3e_ef56_466c_ac1a_d2716b5f87ec"/>
-        <rdfs:comment>A quantity that has spatial parts one or more physical quantities.</rdfs:comment>
-        <rdfs:comment>Measureing a compound quantity corresponds to measuring each of its spatial parts.</rdfs:comment>
-        <rdfs:label xml:lang="en">CompoundQuantity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_fab003c8_f7a6_4346_9988_7161325ed7a3 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_fab003c8_f7a6_4346_9988_7161325ed7a3">
@@ -1412,19 +1379,6 @@
         </rdfs:subClassOf>
         <rdfs:comment>Dimensional quantities includes vectors (rank 1) and multidimensional quantities (rank 2 or more).</rdfs:comment>
         <rdfs:comment>The dimensions of multidimensional quantities are ordered. To express this in OWL, we have to define a QuantityDimension subclass for each dimension of the multidimensional quantity.</rdfs:comment>
-    </rdf:Description>
-    
-
-
-    <!-- http://emmo.info/domains/emmo-units.owl#EMMO_acaaa124_3dde_48b6_86e6_6ec6f364f408 -->
-
-    <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_acaaa124_3dde_48b6_86e6_6ec6f364f408">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_71fc794e_7670_4f4e_a20f_3671a7dda597"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -2006,12 +1960,6 @@
     <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_1b134346_a9f7_4954_b1cc_362094077fa9">
         <rdfs:comment>A dimension that is related to a physical quantity.</rdfs:comment>
         <rdfs:comment>The axis for a field may correspond to different physical dimensions.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#emmo-properties:EMMO_b953f2b1_c8d1_4dd9_b630_d3ef6580c2bb">
-        <rdfs:seeAlso>https://en.wikipedia.org/wiki/List_of_physical_constants</rdfs:seeAlso>
-        <rdfs:comment>Physical constants are categorised into &quot;exact&quot; and measured constants. 
-
-With &quot;exact&quot; constants, we refer to physical constants that have an exact numerical value after the revision of the SI system that was enforsed May 2019.</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 

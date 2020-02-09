@@ -74,8 +74,11 @@ the CODATA 2018 value (effectuated May 20, 2019).
 
 Questions
 ---------
+* Should physical quantities be moved to its own owl file?
 
-* Should DimensionalQuantitity be moved to its own owl file?
+* Are dimensional quantities constructed the right way, using cardinality
+  for vector quantities (rank 1) and a linked list of QuantityDimension
+  classes for multi-dimensional quantities?
 
 * Referring concepts in EMMO to corresponding concepts in other widely
   accepted resources seems to be a good idea.  We have here introduced
@@ -88,3 +91,8 @@ Questions
       Avogagro constant referred to as
       https://physics.nist.gov/cuu/CODATA-Value_AvogadroConstant
       (dead) in http://data.qudt.org/qudt/owl/1.0.0/nist-constants.owl.
+
+* Should the categorisation of physical quantities (incl. compound
+  quantities, dimensional quantities and physical constants) be kept
+  in emmo-units.owl?  Alternatively could e.g. PhysicalConstant be moved
+  to domain/emmo-physical-constant.owl.

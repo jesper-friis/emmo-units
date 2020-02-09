@@ -3,9 +3,10 @@
   <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
     <uri name="http://emmo.info/emmo-units.owl"                       uri="emmo-units.owl"/>
     <uri name="http://emmo.info/base/emmo-extra-annotations.owl"      uri="base/emmo-extra-annotations.owl"/>
-    <uri name="http://emmo.info/domains/emmo-si-units.owl"            uri="domains/emmo-si-units.owl"/>
-    <uri name="http://emmo.info/domains/emmo-units.owl"               uri="domains/emmo-units.owl"/>
     <uri name="http://emmo.info/domains/emmo-datatypes.owl"           uri="domains/emmo-datatypes.owl"/>
+    <uri name="http://emmo.info/domains/emmo-units.owl"               uri="domains/emmo-units.owl"/>
+    <uri name="http://emmo.info/domains/emmo-si-units.owl"            uri="domains/emmo-si-units.owl"/>
+    <uri name="http://emmo.info/domains/emmo-physical-constants.owl"  uri="domains/emmo-physical-constants.owl"/>
 
     <uri name="http://emmo.info/emmo.owl"                             uri="emmo/emmo.owl"/>
     <uri name="http://emmo.info/emmo-base.owl"                        uri="emmo/emmo-base.owl"/>

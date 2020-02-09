@@ -19,14 +19,15 @@ that this the content soon will be merged into EMMO.
 Content
 -------
 
-| file                       | description |
-| -------------------------- | ----------- |
-| emmo-units.owl             | Toplevel unit ontology that imports the rest |
-| emmo/                      | Git submodule with upstream EMMO |
-| base/emmo-annotations.owl  | Additional annotations introduced in emmo-units |
-| domain/emmo-datatypes.owl  | Basic data types  |
-| domain/emmo-units.owl      | Unit basic (to be included in EMMO core) |
-| domain/emmo-si-units.owl   | Realisation of SI units |
+| file                               | description |
+| ---------------------------------- | ----------- |
+| emmo-units.owl                     | Toplevel unit ontology that imports the rest |
+| emmo/                              | Git submodule with upstream EMMO |
+| base/emmo-annotations.owl          | Additional annotations introduced in emmo-units |
+| domain/emmo-datatypes.owl          | Basic data types  |
+| domain/emmo-units.owl              | Unit basic (to be included in EMMO core) |
+| domain/emmo-si-units.owl           | Realisation of SI units |
+| domain/emmo-physical-constants.owl | Realisation physical constants |
 
 
 Details/comments
@@ -38,7 +39,8 @@ definitions in IUPAC and the corresponding concept in QUDT (with
 information about e.g. unit conversions), respectively. Maybe iupacDoi
 should be placed under rdfs:isDefinedBy instead. They can probably
 also be named better. They are currently only used in
-emmo-si-units.owl, but could be used more widely in EMMO.
+emmo-si-units.owl and emmo-physical-constants.owl, but could be used
+more widely in EMMO.
 
 ### domains/emmo-datatypes.owl
 This is an early draft for formalising data types and
@@ -61,3 +63,28 @@ https://en.wikipedia.org/wiki/SI_derived_unit. Common derived units
 without an own name, like square metre, Newton second, etc are still
 missing. Likewise a limited set of common Physical constants are not
 yet included.
+
+It adds also a `DimensionalQuantity` branch with two subbranches,
+VectorQuantity (rank 1) and MultiDimensionalQuantity (rank 2 or larger).
+
+### domains/emmo-physical-constants.owl
+Adds physical constants.  The qudtSameAs annotation is used to refer to
+the CODATA 2018 value (effectuated May 20, 2019).
+
+
+Questions
+---------
+
+* Should DimensionalQuantitity be moved to its own owl file?
+
+* Referring concepts in EMMO to corresponding concepts in other widely
+  accepted resources seems to be a good idea.  We have here introduced
+  dedicated annotation properties for referring to IUPAC DOIs and QUDT
+  URIs.
+  Sub-questions:
+    - Are the names iupacDoi and qudtSameAs well chosen?
+    - Is it a problem that the URLs to the CODATA definitions of
+      physical constants in QUDT are dead links?  For example is
+      Avogagro constant referred to as
+      https://physics.nist.gov/cuu/CODATA-Value_AvogadroConstant
+      (dead) in http://data.qudt.org/qudt/owl/1.0.0/nist-constants.owl.

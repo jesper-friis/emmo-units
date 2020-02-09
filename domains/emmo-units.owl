@@ -621,15 +621,6 @@ In EMMO, the dimension of the permeance can be described by the following set of
     
 
 
-    <!-- http://emmo.info/domains/emmo-units.owl#emmo-properties:EMMO_b953f2b1_c8d1_4dd9_b630_d3ef6580c2bb -->
-
-    <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#emmo-properties:EMMO_b953f2b1_c8d1_4dd9_b630_d3ef6580c2bb">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819"/>
-        <rdfs:label xml:lang="en">PhysicalConstant</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://emmo.info/domains/emmo-units.owl#emmo-properties:EMMO_daa9ee97_4c5f_42e5_918c_44d7523e8958 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#emmo-properties:EMMO_daa9ee97_4c5f_42e5_918c_44d7523e8958">

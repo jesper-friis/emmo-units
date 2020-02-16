@@ -9,8 +9,6 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:emmo-annotations="http://emmo.info/base/emmo-annotations.owl#">
     <owl:Ontology rdf:about="http://emmo.info/emmo.owl">
-        <owl:imports rdf:resource="http://emmo.info/domains/emmo-datatypes.owl"/>
-        <owl:imports rdf:resource="http://emmo.info/domains/emmo-si-units.owl"/>
         <owl:imports rdf:resource="http://emmo.info/domains/emmo-physical-constants.owl"/>
         <emmo-annotations:EMMO_5525a055_dda5_4556_8b91_f0d22fa676cc>EMMO is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)
 

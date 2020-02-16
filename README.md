@@ -19,15 +19,16 @@ that this the content soon will be merged into EMMO.
 Content
 -------
 
-| file                               | description |
-| ---------------------------------- | ----------- |
-| emmo-units.owl                     | Toplevel unit ontology that imports the rest |
-| emmo/                              | Git submodule with upstream EMMO |
-| base/emmo-annotations.owl          | Additional annotations introduced in emmo-units |
-| domain/emmo-datatypes.owl          | Basic data types  |
-| domain/emmo-units.owl              | Unit basic (to be included in EMMO core) |
-| domain/emmo-si-units.owl           | Realisation of SI units |
-| domain/emmo-physical-constants.owl | Realisation physical constants |
+| file                                | description |
+| ----------------------------------- | ----------- |
+| emmo-units.owl                      | Toplevel unit ontology that imports the rest |
+| emmo/                               | Git submodule with upstream EMMO |
+| base/emmo-annotations.owl           | Additional annotations introduced in emmo-units |
+| domain/emmo-datatypes.owl           | Basic data types  |
+| domain/emmo-units.owl               | Unit basic (to be included in EMMO core) |
+| domain/emmo-si-units.owl            | Realisation of SI units |
+| domain/emmo-physical-constants.owl  | Realisation physical constants |
+| domain/emmo-physical-dimensions.owl | Realisation physical constants |
 
 
 Details/comments
@@ -52,9 +53,7 @@ etc...
 
 ### domains/emmo-units.owl
 Defines the basic categorisation for physical quantities and units,
-but does not define any unit or quantity itself. It also defines
-relations for defining the physical dimensionality of derived physical
-quantities in terms of base quantities.
+but does not define any unit or quantity itself.
 
 ### domains/emmo-si-units.owl
 Adds a set of common SI units and corresponding physical
@@ -70,6 +69,28 @@ VectorQuantity (rank 1) and MultiDimensionalQuantity (rank 2 or larger).
 ### domains/emmo-physical-constants.owl
 Adds physical constants.  The qudtSameAs annotation is used to refer to
 the CODATA 2018 value (effectuated May 20, 2019).
+
+### domains/emmo-physical-dimensions.owl
+Defines and apply cardinality restrictions for specifying the physical
+dimensionality of derived physical quantities in terms of base and
+dimensionalless quantities.
+
+Note that domains/emmo-physical-dimensions.owl is not loaded by default
+since the cardinality restrictions makes the reasoner extremely(!) slow.
+
+
+Tips for reasoning
+------------------
+Since the cardinality restrictions defined in
+domains/emmo-physical-dimensions.owl makes the reasoner extremely
+slow, domains/emmo-physical-dimensions.owl is not loaded by default.
+To work with a reasoned ontology include these restrictions, do as
+follows:
+
+  1. Load emmo-units.owl in the root directory
+  2. Run the FaCT++ reasoner
+  3. Load domains/emmo-physical-dimensions.owl into the existing ontology
+  4. Run the FaCT++ reasoner again
 
 
 Questions

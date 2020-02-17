@@ -37,44 +37,6 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
 Version 1.0.0</owl:versionInfo>
     </owl:Ontology>
     
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_09a57c96_9a1e_47da_8546_fecfd1e90854 -->
-
-    <rdf:Description rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_09a57c96_9a1e_47da_8546_fecfd1e90854">
-        <owl:disjointWith rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_6be817b1_7f17_448a_96a1_d5a22039a9da"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_6be817b1_7f17_448a_96a1_d5a22039a9da -->
-
-    <rdf:Description rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_6be817b1_7f17_448a_96a1_d5a22039a9da"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://emmo.info/domains/emmo-datatypes.owl#emmo-properties:EMMO_a93828e3_5fef_4163_a4c4_dc865ce80462">
-        <rdfs:comment>Used relate the &quot;key&quot; of a CompoundItem to a concept in the ontology.</rdfs:comment>
-    </rdf:Description>
 </rdf:RDF>
 
 

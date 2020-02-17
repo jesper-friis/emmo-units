@@ -47,6 +47,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
 
     
 
+
     <!-- http://emmo.info/domains/emmo-units.owl#EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296 -->
 
     <owl:ObjectProperty rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296">
@@ -82,7 +83,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
     </owl:ObjectProperty>
     
 
-
+    
 
 
     <!-- 
@@ -100,6 +101,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_09a57c96_9a1e_47da_8546_fecfd1e90854">
         <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819"/>
+        <owl:disjointWith rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_6be817b1_7f17_448a_96a1_d5a22039a9da"/>
         <emmo-annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.E02281</emmo-annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment>Physical quantity whose magnitude is additive for subsystems.</rdfs:comment>
         <rdfs:label xml:lang="en">ExtensiveQuantity</rdfs:label>

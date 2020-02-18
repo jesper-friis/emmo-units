@@ -1233,17 +1233,6 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
     
 
 
-    <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_d02d0bcc_b118_4331_a41b_e8d545a07edc -->
-
-    <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_d02d0bcc_b118_4331_a41b_e8d545a07edc">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-datatypes.owl#EMMO_11ead35b_b007_414a_af7b_72d08b283277"/>
-        <rdfs:comment>Cardinality restrictions on the hasDimension or hasNextDimension relations are used to specify the size of the dimension that it refers to.</rdfs:comment>
-        <rdfs:comment>The subclasses of QuantityDimension are the individual dimensions of multidimensional quantities.</rdfs:comment>
-        <rdfs:label xml:lang="en">QuantityDimension</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81">

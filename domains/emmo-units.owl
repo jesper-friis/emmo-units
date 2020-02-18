@@ -83,8 +83,6 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
     </owl:ObjectProperty>
     
 
-    
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -373,7 +371,6 @@ That is, if a closed system is not affected by external forces, the conserved qu
     <!-- http://emmo.info/domains/emmo-units.owl#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819"/>
         <rdfs:comment>Physical quantities whos dimension can be expressed in terms of base quantites and dimensional-less quantities.</rdfs:comment>
         <rdfs:label xml:lang="en">DerivedQuantity</rdfs:label>
         <rdfs:seeAlso>https://en.wikipedia.org/wiki/List_of_physical_quantities</rdfs:seeAlso>
@@ -526,7 +523,6 @@ That is, if a closed system is not affected by external forces, the conserved qu
     <!-- http://emmo.info/domains/emmo-units.owl#EMMO_acaaa124_3dde_48b6_86e6_6ec6f364f408 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_acaaa124_3dde_48b6_86e6_6ec6f364f408">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819"/>
         <rdfs:label xml:lang="en">BaseQuantity</rdfs:label>
     </owl:Class>
     
@@ -720,7 +716,6 @@ With &quot;exact&quot; constants, we refer to physical constants that have an ex
     <!-- http://emmo.info/domains/emmo-units.owl#EMMO_fdadf52c_5c39_40bc_95d9_5b7807f06e19 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_fdadf52c_5c39_40bc_95d9_5b7807f06e19">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-physical-properties.owl#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819"/>
         <rdfs:label xml:lang="en">DimensionlessQuantity</rdfs:label>
     </owl:Class>
     
@@ -740,14 +735,6 @@ With &quot;exact&quot; constants, we refer to physical constants that have an ex
             <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_17b1e507_dab2_47d8_8655_80232199bd49"/>
             <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_3a185e6c_9e19_4776_b583_19c978156aa0"/>
             <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_e9ffc696_5228_4ff9_8a60_0f5e05e9931b"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3"/>
-            <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_acaaa124_3dde_48b6_86e6_6ec6f364f408"/>
-            <rdf:Description rdf:about="http://emmo.info/domains/emmo-units.owl#EMMO_fdadf52c_5c39_40bc_95d9_5b7807f06e19"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>

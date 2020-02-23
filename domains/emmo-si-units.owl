@@ -929,8 +929,7 @@ Speed in the absolute value of the velocity.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3"/>
         <emmo-annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Capacitance</emmo-annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <emmo-annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.C00791</emmo-annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
-        <rdfs:comment>The derivative of the electric charge of a system with respect to 
-the electric potential.</rdfs:comment>
+        <rdfs:comment>The derivative of the electric charge of a system with respect to the electric potential.</rdfs:comment>
         <rdfs:label xml:lang="en">ElectricalCapacitance</rdfs:label>
     </owl:Class>
     
@@ -1373,7 +1372,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
     <!-- http://emmo.info/domains/emmo-si-units.owl#EMMO_e150fa8d_06dc_4bb8_bf95_04e2aea529c1 -->
 
     <owl:Class rdf:about="http://emmo.info/domains/emmo-si-units.owl#EMMO_e150fa8d_06dc_4bb8_bf95_04e2aea529c1">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_09a57c96_9a1e_47da_8546_fecfd1e90854"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-si-units.owl#EMMO_6be817b1_7f17_448a_96a1_d5a22039a9da"/>
         <rdfs:subClassOf rdf:resource="http://emmo.info/domains/emmo-units.owl#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3"/>
         <emmo-annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Electrical_resistivity_and_conductivity</emmo-annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <emmo-annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.R05316</emmo-annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
@@ -1618,10 +1617,10 @@ Inverse of &apos;ElectricalResistance&apos;.</rdfs:comment>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
